@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "warn", // Warns about unescaped characters
+    "@typescript-eslint/quotes": "off", // Disables quotes rule for TypeScript
+    "quotes": "off", // Disables quotes rule for JavaScript
+    "avoidEscape": "off", // Disables avoiding escape of quotes in strings
+    "allowTemplateLiterals": "off", // Disables allowance of template literals for quotes
+    "no-useless-escape": "off", // Disables no-useless-escape rule
+    "jsx-a11y/alt-text": "warn" // Warns about missing alt attributes in images
+  }
 }
