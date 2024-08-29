@@ -4,7 +4,7 @@ import { FaHtml5 ,  FaCss3Alt , FaJs,FaReact,FaNode ,FaJava , FaWordpress} from 
 import { SiTailwindcss ,SiMongodb,SiCplusplus } from "react-icons/si";
 import { PiFileSql } from "react-icons/pi";
 import { RiNextjsFill } from "react-icons/ri";
-import resumesvg from "../../public/Resume/MdiResume"
+
 //about data
 const about = {
     title: 'About me',
@@ -42,7 +42,7 @@ const about = {
 }
 //experience data
 const experience = {
-    icon : resumesvg,
+   
     title: 'My experience',
     description:'Skilled software developer with expertise in full-stack web development(MongoDB , Express , ReactJs ,NodeJs , NextJS) and programming (c++,java). strong leadership abilites , committed to delivering high-quality work and fostering team success',
     items:[
@@ -62,7 +62,7 @@ const experience = {
 
 //education data
 const education = {
-    icon : resumesvg,
+  
     title: 'My education',
     description:'Skilled software developer with expertise in full-stack web development(MongoDB , Express , ReactJs ,NodeJs , NextJS) and programming (c++,java). strong leadership abilites , committed to delivering high-quality work and fostering team success',
     items:[
