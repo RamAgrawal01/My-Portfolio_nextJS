@@ -1,11 +1,10 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
-import resultManagement from "../../public/assets/work/resultManagement.png"
+import resultManagement from "../../public/assets/work/resultmanagement.png";
 import blogWebsite from "../../public/assets/work/blogWebsite.png"
-import tornedEdu from "../../public/assets/work/TornedEdu.png"
+import tornedEdu from "../../public/assets/work/tornedEdu.png"
 import currencyConvertor from "../../public/assets/work/currencyConvertor.png";
-import imageGallery from "../../public/assets/work/imageGallery.png"
 import modernChair from "../../public/assets/work/modernChair.png";
 import weatherApp from "../../public/assets/work/weatherApp.png"
 import randomGIF from "../../public/assets/work/randomGIF.png";
