@@ -28,17 +28,17 @@ const Stairs = () => {
         defined by the stair animation object , the delay for each div is calculate
         based on its reversed index , creating a staggered effect with decreasing delay for each 
         subsequent step*/}
-        {[...Array(6)].map((_,index)=>(
+        {/* {[...Array(6)].map((_,index)=>(
             <motion.div key={index}
             variants={stairAnimation}
             initial="initial"
             animate="animate"
             exit="exit"
             transition={{duration:0.4,ease:'easeInOut',delay:reverseIndex(index)*0.1,}}
-            className="h-full w-full bg-accent relative">
+            className="h-full w-full bg-pink-300 relative">
             
             </motion.div>
-        ))}
+        ))} */}
         </>
     )
 }
